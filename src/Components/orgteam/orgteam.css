@@ -1,24 +1,97 @@
 .heading {
   text-align: center;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
 }
 
-hr {
+@media only screen and (max-width: 640px) {
+  .heading {
+    font-size: 2rem;
+  }
+}
+
+.line {
   width: 20rem;
   margin-top: 15px;
 }
-img {
+@media only screen and (max-width: 640px) {
+  .line {
+    width: 18rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .line {
+    width: 15rem;
+  }
+}
+
+.symb {
   max-width: 100%;
   height: auto;
   margin-top: 1rem;
+  width: 14.5rem;
 }
-p {
+
+@media only screen and (max-width: 767px) {
+  .symb {
+    display: flex;
+    margin: auto;
+    width: 12.5rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .symb {
+    width: 11rem;
+  }
+}
+
+.txt {
   font-size: 1.25rem;
   line-height: 1.3;
 }
 
+@media only screen and (max-width: 767px) {
+  .txt {
+    text-align: center;
+    font-size: 1.15rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .txt {
+    font-size: 1rem;
+  }
+}
+
 section {
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  section {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  section {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  section {
+    margin: 0 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  section {
+    margin: 0 0.5rem;
+  }
 }

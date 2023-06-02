@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
-h1 {
+.about {
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
   text-align: center;
@@ -10,7 +10,7 @@ hr {
   margin-top: -10px;
   width: 20rem;
 }
-p {
+.about-para {
   text-align: center;
   font-family: "Open Sans", sans-serif;
   font-size: 1.25rem;
