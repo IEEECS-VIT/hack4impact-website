@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
 
 .App {
   text-align: center;
@@ -38,6 +38,8 @@
     transform: rotate(360deg);
   }
 }
-body{
+
+
+body {
   background-color: black;
 }
