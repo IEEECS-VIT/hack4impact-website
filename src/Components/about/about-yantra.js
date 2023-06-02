@@ -3,10 +3,10 @@ import './about.css';
 
 const aboutyantra = () => {
   return (<div>
-    <h1>About Yantra</h1>
+    <h1 class="about">About Yantra</h1>
     <hr/>
     <div class="main">
-    <p>
+    <p class="about-para">
     We are excited to announce the launch of Yantra, an innovative tech
 fest hosted by VIT Vellore for the first time this year, representing a fresh
 chapter in our university’s journey of technological exploration and

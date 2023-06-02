@@ -3,10 +3,10 @@ import './about.css';
 
 const abouthack = () => {
   return (<div>
-    <h1>HACK 4 IMPACT</h1>
+    <h1 class="about">HACK 4 IMPACT</h1>
     <hr/>
     <div class="main">
-    <p>
+    <p class="about-para"> 
     BIF and IEEE-CS in collaboration presents Hack-4-impact an
 exhilarating 36-hour hackathon focused on enhancing education
 quality! We are bringing together brilliant minds, educators, and tech
