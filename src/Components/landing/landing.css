@@ -3,10 +3,10 @@ div {
 }
 .title{
   color: white;
-  font-size: 6rem;
+  font-size: 4rem;
   margin-left: 5rem;
   margin-top: 2.25rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .titleYear{
   color: #FAA41A;
@@ -16,8 +16,47 @@ div {
 }
 .nav{
   margin-right: 2rem;
-  font-size: 1.875rem;
+  font-size: 1.2rem;
   color: white;
   text-decoration: none;
   
+}
+.logodiv{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.logo{
+  margin-top: 5rem;
+  width: 17rem;
+  margin-bottom: 0;
+}
+.parenttxt{
+  display: flex;
+  justify-content: center;
+  
+}
+.empowertxt{
+  color: white;
+  font-size: 2rem;
+  
+}
+
+.count{
+  margin: 0;
+  width: 100%;
+  height: 7rem;
+  background-color: grey;
+}
+.btndiv{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  width: 9rem;
+  height: 3rem;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
 }

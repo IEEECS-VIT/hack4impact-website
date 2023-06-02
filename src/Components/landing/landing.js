@@ -1,6 +1,6 @@
 import React from 'react';
 import './landing.css';
-
+import logo from './Shape.svg';
 
 const landing = () => {
   return <div>
@@ -12,6 +12,16 @@ const landing = () => {
       <a class="nav" href="#sponsosrs">SPONSORS</a>
       <a class="nav" href="#organizers">ORGANIZERS</a>
       <a class="nav" href="#faq">FAQ</a>
+    </div>
+    <div class="logodiv">
+      <img class="logo" src={logo} alt="shape"/>
+    </div>
+    <div class="parenttxt">
+      <p class="empowertxt">Empowering Minds & Igniting Changes</p>
+    </div>
+    <div class="count"></div>
+    <div class="btndiv">
+      <button class="btn" type="button">Register Now</button>
     </div>
   </div>;
 };
