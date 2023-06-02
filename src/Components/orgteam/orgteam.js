@@ -8,7 +8,7 @@ const orgteam = () => {
     <div>
       <section>
         <div class="heading">Organising Team</div>
-        <hr/> 
+        <hr />
         <body>
           <img width={232} src={IEEE} alt="IEEE logo" />
           <p>
