@@ -1,6 +1,7 @@
 import React from 'react';
 import './landing.css';
 import logo from './Shape.svg';
+import { Link } from 'react-scroll';
 import Countdown from '../countdown/countdown';
 
 const landing = () => {
@@ -27,15 +28,15 @@ const landing = () => {
           </label>
 
           <nav class='menu1'>
-            <a class='link1' href='#about'>
+            <Link class='link1' to='about' smooth={true} duration={500}>
               ABOUT
-            </a>
+            </Link>
             <a class='link1' href='#sponsors'>
               SPONSORS
             </a>
-            <a class='link1' href='#organizers'>
+            <Link class='link1' to='org' smooth={true} duration={500}>
               ORGANIZERS
-            </a>
+            </Link>
             <a class='link1' id='faq' href='#faq'>
               FAQ
             </a>

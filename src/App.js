@@ -1,6 +1,7 @@
 import React from 'react';
 import Landing from './Components/landing/landing.js';
 import Orgteam from './Components/orgteam/orgteam.js';
+import { Element } from 'react-scroll';
 import './App.css';
 
 import Abouthack from './Components/about/about-hack.js';
@@ -16,7 +17,9 @@ const App = () => {
         <AboutYantra />
         <Abouthack />
       </div>
-      <Orgteam />
+      <div style={{ marginTop: '15rem' }}>
+        <Orgteam />
+      </div>
     </div>
   );
 };
