@@ -5,13 +5,13 @@ import { Link } from 'react-scroll';
 import Countdown from '../countdown/countdown';
 
 const landing = () => {
-  const time = new Date('June 6, 2023 13:00:00').getTime();
+  const time = new Date('June 6, 2023 9:00:00').getTime();
   const HandleRedirect = () => {
     window.open('https://vtop.vit.ac.in/vtop/login', '_blank');
   };
 
   return (
-    <div>
+    <div class='landing'>
       <div class='titlenav'>
         <div class='titleclass'>
           <h1 class='title'>
@@ -37,9 +37,9 @@ const landing = () => {
             <Link class='link1' to='org' smooth={true} duration={500}>
               ORGANIZERS
             </Link>
-            <a class='link1' id='faq' href='#faq'>
+            <Link class='link1' to='faq' smooth={true} duration={500}>
               FAQ
-            </a>
+            </Link>
           </nav>
         </nav>
       </div>

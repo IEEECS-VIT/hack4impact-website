@@ -6,10 +6,8 @@ import BIF from './img/BIF 1.svg';
 const orgteam = () => {
   return (
     <div>
-      <section>
-        <div id='org' class='heading'>
-          Organising Team
-        </div>
+      <section id='org' class='section'>
+        <div class='heading'>Organising Team</div>
         <hr class='line' />
         <body>
           <img class='symb' src={IEEE} alt='IEEE logo' />
