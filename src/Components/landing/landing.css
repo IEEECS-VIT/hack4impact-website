@@ -1,62 +1,63 @@
 div {
   color: #ffffff;
 }
-.title{
+.title {
   color: white;
   font-size: 4rem;
   margin-left: 5rem;
   margin-top: 2.25rem;
   margin-bottom: 1rem;
 }
-.titleYear{
-  color: #FAA41A;
+.titleYear {
+  color: #faa41a;
 }
-.navbar{
+.navbar {
   margin-left: 5rem;
 }
-.nav{
+.nav {
   margin-right: 2rem;
   font-size: 1.2rem;
   color: white;
   text-decoration: none;
-  
 }
-.logodiv{
+.logodiv {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-.logo{
-  margin-top: 5rem;
+.logo {
+  margin-top: 4rem;
   width: 17rem;
   margin-bottom: 0;
 }
-.parenttxt{
+.parenttxt {
   display: flex;
   justify-content: center;
-  
 }
-.empowertxt{
+.empowertxt {
   color: white;
   font-size: 2rem;
-  
+  margin-bottom: -0.25rem;
 }
 
-.count{
+.count {
   margin: 0;
   width: 100%;
   height: 7rem;
-  background-color: grey;
 }
-.btndiv{
+.btndiv {
   margin-top: 1rem;
   display: flex;
   justify-content: center;
 }
-.btn{
+.btn {
+  margin-top: 0.5rem;
   width: 9rem;
   height: 3rem;
   border-radius: 2rem;
   font-size: 1.1rem;
   font-weight: bold;
+}
+.btn:hover {
+  cursor: pointer;
 }
