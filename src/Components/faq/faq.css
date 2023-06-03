@@ -1,6 +1,5 @@
 .section {
   margin: 0 3rem;
-  min-height: 100vh;
 }
 
 .faqs {
@@ -70,6 +69,7 @@
 
 @media only screen and (max-width: 640px) {
   .line-faq {
+    width: 20rem;
     visibility: hidden;
   }
 }
