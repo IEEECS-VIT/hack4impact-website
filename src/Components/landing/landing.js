@@ -4,7 +4,7 @@ import logo from './Shape.svg';
 import Countdown from '../countdown/countdown';
 
 const landing = () => {
-  const time = new Date('June 3, 2023 13:00:00').getTime();
+  const time = new Date('June 6, 2023 13:00:00').getTime();
   const HandleRedirect = () => {
     window.open('https://vtop.vit.ac.in/vtop/login', '_blank');
   };
