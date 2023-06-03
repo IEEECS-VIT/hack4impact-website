@@ -1,7 +1,6 @@
 .expired-notice {
   text-align: center;
   padding: 2rem;
-  margin: 0.5rem;
 }
 
 .expired-notice > span {
@@ -41,7 +40,7 @@
     rgba(30, 30, 30, 0) 100%
   );
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 2rem 2rem 3rem 2rem;
 }
 
 .countdown-link .countdown-danger .box {

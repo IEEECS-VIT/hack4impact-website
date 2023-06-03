@@ -4,32 +4,45 @@ import logo from './Shape.svg';
 import Countdown from '../countdown/countdown';
 
 const landing = () => {
-  const time = new Date('June 6, 2023 13:00:00').getTime();
+  const time = new Date('June 3, 2023 13:00:00').getTime();
   const HandleRedirect = () => {
     window.open('https://vtop.vit.ac.in/vtop/login', '_blank');
   };
 
   return (
     <div>
-      <div>
-        <h1 class='title'>
-          HACK 4 IMPACT <span class='titleYear'>2023</span>
-        </h1>
+      <div class='titlenav'>
+        <div class='titleclass'>
+          <h1 class='title'>
+            HACK 4 IMPACT <span class='titleYear'>2023</span>
+          </h1>
+        </div>
+
+        <nav id='navbar' class='navigation' role='navigation'>
+          <input id='toggle1' type='checkbox' style={{ display: 'none' }} />
+          <label class='hamburger1' for='toggle1'>
+            <div class='top'></div>
+            <div class='meat'></div>
+            <div class='bottom'></div>
+          </label>
+
+          <nav class='menu1'>
+            <a class='link1' href='#about'>
+              ABOUT
+            </a>
+            <a class='link1' href='#sponsors'>
+              SPONSORS
+            </a>
+            <a class='link1' href='#organizers'>
+              ORGANIZERS
+            </a>
+            <a class='link1' id='faq' href='#faq'>
+              FAQ
+            </a>
+          </nav>
+        </nav>
       </div>
-      <div class='navbar'>
-        <a class='nav' href='#about'>
-          ABOUT
-        </a>
-        <a class='nav' href='#sponsosrs'>
-          SPONSORS
-        </a>
-        <a class='nav' href='#organizers'>
-          ORGANIZERS
-        </a>
-        <a class='nav' href='#faq'>
-          FAQ
-        </a>
-      </div>
+
       <div class='logodiv'>
         <img class='logo' src={logo} alt='shape' />
       </div>
