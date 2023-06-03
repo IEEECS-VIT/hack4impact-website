@@ -10,15 +10,35 @@ export default function Content() {
       open: true,
     },
     {
-      question: "Who is the most awesome person?",
-      answer: "You! The viewer!",
+      question: "What kind of problem statements can we expect?",
+      answer:
+        "All problem statements will be based on SDG's 4th goal i.e. Quality Education which aims at ensuring inclusive and equitable quality education as well as promoting lifelong learning opportunities for all.",
       open: false,
     },
     {
-      question:
-        "How many questions does it take to makes a succesful FAQ Page?",
-      answer: "This many!",
+      question: "Who can participate in this hack?",
+      answer: "Students from all years are welcome.",
       open: false,
+    },
+    {
+      question: "How many members can constitute a team?",
+      answer:
+        "There should be a minimum of 3 members and can be up to 4 members in a team.",
+    },
+    {
+      question: "How will this hack help me?",
+      answer:
+        "This is a great opportunity for learning, overcoming challenges, collaborating with the community, networking and winning SWAGs.",
+    },
+    {
+      question: "Are there any prerequisites?",
+      answer:
+        "While coding experience is a huge plus, strong presentation skills and out of the box ideas are also great complementary attributes that help make up a well balanced team.",
+    },
+    {
+      question: "Will there be refreshments?",
+      answer:
+        "Absolutely, delicious food and beverages will be providede throughout the event.",
     },
   ]);
 
@@ -40,7 +60,7 @@ export default function Content() {
     <div>
       <div class="heading">Frequently Asked Questions</div>
       <hr class="line-faq" />
-      <div className="App">
+      <div className="section">
         <div className="faqs">
           {faqs.map((faq, index) => (
             <FAQ faq={faq} index={index} key={index} toggleFAQ={toggleFAQ} />

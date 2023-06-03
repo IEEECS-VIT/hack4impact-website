@@ -6,7 +6,7 @@ import BIF from "./img/BIF 1.svg";
 const orgteam = () => {
   return (
     <div>
-      <section>
+      <section class="section">
         <div class="heading">Organising Team</div>
         <hr class="line" />
         <body>
