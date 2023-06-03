@@ -1,24 +1,122 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-.about{
-    font-family: 'Open Sans', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+.about {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+
+.underline {
+  margin-top: -10px;
+  width: 20rem;
+}
+.about-para {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.main {
+  margin-bottom: 7rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .about-para {
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+  }
+  .about {
+    font-family: "Open Sans", sans-serif;
     font-weight: 800;
     text-align: center;
-
-}
-
-hr{
+    font-size: 1.5rem;
+  }
+  .underline {
     margin-top: -10px;
-    width: 20rem;
-}
-.about-para{
+    width: 15rem;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.25rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+  }
 }
+@media screen and (max-width: 767px) {
+  .about-para {
+    font-size: 0.85rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+  }
+  .about {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  .underline {
+    margin-top: -10px;
+    width: 13rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 640px) {
+  .about-para {
+    font-size: 0.75rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-align: center;
+  }
+  .about {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .underline {
+    margin-top: -10px;
+    width: 10rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .about-para {
+    font-size: 0.65rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    text-align: center;
+  }
+  .about {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .underline {
+    margin-top: -10px;
+    width: 10rem;
+    text-align: center;
+  }
+}
+/* @media only screen and (max-width:1247px){
+        .about-para{
+            font-size: 1.1rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            text-align: center;
 
-.main{
-    margin-bottom: 7rem;
-}
+        }
+        .about{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 800;
+            text-align: center;
+            font-size: 1.75rem;
+
+        }
+        .underline{
+            margin-top: -10px;
+            width: 18rem;
+            text-align: center;
+        }
+
+} */
