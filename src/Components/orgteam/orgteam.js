@@ -21,7 +21,12 @@ const orgteam = () => {
             top technology-driven chapters that are part of Vellore Institute of
             Technology, Vellore.
           </p>
-          <img class='symb' src={BIF} alt='BIF logo' />
+          <img
+            style={{ marginTop: '3rem' }}
+            class='symb'
+            src={BIF}
+            alt='BIF logo'
+          />
           <p class='txt'>
             BIF is a globally recognized youth-led organization that encourages
             young people to get involved in community development through
