@@ -57,6 +57,7 @@
   font-size: 1rem;
   overflow: hidden;
   transition: all 0.2s ease;
+  color: #ffb743;
 }
 
 .faqs .faq.open .faq-question {

@@ -6,7 +6,9 @@
   text-align: center;
   font-size: 2.4rem;
 }
-
+.point {
+  color: #faa41a;
+}
 .underline {
   margin-top: -10px;
   width: 20rem;

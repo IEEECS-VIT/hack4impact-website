@@ -7,7 +7,9 @@ const orgteam = () => {
   return (
     <div>
       <section id='org' class='section'>
-        <div class='heading'>Organising Team</div>
+        <div class='heading'>
+          Organising <span class='point'>Team</span>
+        </div>
         <hr class='line' />
         <body>
           <img class='symb' src={IEEE} alt='IEEE logo' />

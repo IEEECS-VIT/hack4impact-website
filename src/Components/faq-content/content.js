@@ -58,7 +58,9 @@ export default function Content() {
 
   return (
     <div id='faq'>
-      <div class='heading'>Frequently Asked Questions</div>
+      <div class='heading'>
+        Frequently Asked <span class='point'>Questions</span>
+      </div>
       <hr class='line-faq' />
       <div className='section'>
         <div className='faqs'>
