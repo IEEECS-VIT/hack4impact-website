@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 div {
   color: #ffffff;
 }
 .title {
+  font-family: 'Open Sans', sans-serif;
   color: white;
   font-size: 4rem;
   margin-left: 5rem;
@@ -11,12 +13,14 @@ div {
   text-align: left;
 }
 .titleYear {
+  font-family: 'Open Sans', sans-serif;
   color: #faa41a;
 }
 .navbar {
   margin-left: 5rem;
 }
 .nav {
+  font-family: 'Open Sans', sans-serif;
   margin-right: 2rem;
   font-size: 1.2rem;
   color: white;
@@ -63,6 +67,7 @@ nav {
 }
 
 .link1 {
+  font-family: 'Open Sans', sans-serif;
   color: white;
   text-decoration: none;
   margin-right: 2rem;
@@ -249,6 +254,7 @@ nav {
   margin-bottom: -0.25rem;
 }
 .empowertxt {
+  font-family: 'Open Sans', sans-serif;
   color: white;
   font-size: 2rem;
   text-align: center;
@@ -276,6 +282,7 @@ nav {
   justify-content: center;
 }
 .btn {
+  font-family: 'Open Sans', sans-serif;
   margin-top: 0.5rem;
   width: 9rem;
   height: 3rem;
