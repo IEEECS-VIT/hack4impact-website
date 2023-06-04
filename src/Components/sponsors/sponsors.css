@@ -1,0 +1,100 @@
+.sline {
+    width: 12rem;
+    margin-top: 15px;
+}
+.sponsordiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 9rem;
+}
+.slogo{
+    width: 25rem;
+}
+.blogo{
+    margin-right: 9rem;
+}
+.clogo{
+    margin-left: 9rem
+}
+@media screen and (max-width: 1247px) {
+    .slogo{
+        width: 21rem;
+    }
+    .blogo{
+        margin-right: 6.5rem;
+    }
+    .clogo{
+        margin-left: 6.5rem
+    }
+}
+@media screen and (max-width: 1023px) {
+    .slogo{
+        width: 19rem;
+    }
+    .blogo{
+        margin-right: 6rem;
+    }
+    .clogo{
+        margin-left: 6rem
+    }
+}
+@media screen and (max-width: 980px) {
+    .slogo{
+        width: 19rem;
+    }
+    .blogo{
+        margin-right: 5rem;
+    }
+    .clogo{
+        margin-left: 5rem
+    }
+}
+@media screen and (max-width: 870px) {
+    .slogo{
+        width: 18rem;
+    }
+    .blogo{
+        margin-right: 4rem;
+    }
+    .clogo{
+        margin-left: 4rem
+    }
+}
+@media screen and (max-width: 767px) {
+    .sponsordiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .slogo{
+        width: 22rem;
+    }
+    .clogo, .blogo{
+        margin: 0;
+        margin-top: 3rem;
+    }
+    
+}
+
+@media screen and (max-width: 640px) {
+    .sponsordiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .slogo{
+        width: 18rem;
+    }
+    .clogo, .blogo{
+        margin: 0;
+        margin-top: 3rem;
+    }
+}
+/* @media screen and (max-width: 400px) {
+
+} */
+.sponsors{
+    min-height: 100vh;
+}

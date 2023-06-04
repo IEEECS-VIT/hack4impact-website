@@ -8,6 +8,7 @@ import Abouthack from './Components/about/about-hack.js';
 import AboutVIT from './Components/about/about-vit.js';
 import AboutYantra from './Components/about/about-yantra.js';
 import Content from './Components/faq-content/content.js';
+import Sponsors from './Components/sponsors/sponsors.js';
 import './App.css';
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
         <Orgteam />
       </div>
       <Content />
+      <Sponsors />
     </div>
   );
 };
