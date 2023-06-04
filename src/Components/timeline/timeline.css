@@ -1,6 +1,7 @@
 .vertical-timeline-element-title {
   text-align: center;
   color: #faa41a;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .vertical-timeline-element--work {
@@ -21,14 +22,32 @@
   margin-left: 0.7rem;
   color: white;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 .day-color {
   margin: 0 1rem;
   right: 1rem;
   color: #faa41a;
+  font-family: 'Open Sans', sans-serif;
+}
+.day {
+  color: #faa41a;
+  padding-right: 1.5rem;
+  margin-left: -1rem;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: -15px;
+  margin-top: 0.8rem;
 }
 
 @media only screen and (max-width: 1169px) {
+  .day {
+    margin-left: 0.5rem;
+    padding-right: 1rem;
+  }
   .date-time {
     margin-left: 2rem;
 
@@ -36,6 +55,10 @@
   }
   .day-color {
     margin: 0 0.5rem;
+  }
+  .vertical-timeline--two-columns .vertical-timeline-element-icon {
+    margin-left: 5px;
+    margin-top: 0.5rem;
   }
 }
 

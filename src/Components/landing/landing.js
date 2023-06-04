@@ -31,9 +31,12 @@ const landing = () => {
             <Link class='link1' to='about' smooth={true} duration={500}>
               ABOUT
             </Link>
-            <a class='link1' href='#sponsors'>
+            <Link class='link1' to='timeline' smooth={true} duration={500}>
+              TIMELINE
+            </Link>
+            <Link class='link1' to='sponsors' smooth={true} duration={500}>
               SPONSORS
-            </a>
+            </Link>
             <Link class='link1' to='org' smooth={true} duration={500}>
               ORGANIZERS
             </Link>
