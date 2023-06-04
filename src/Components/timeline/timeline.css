@@ -1,0 +1,56 @@
+.vertical-timeline-element-title {
+  text-align: center;
+  color: #faa41a;
+}
+
+.vertical-timeline-element--work {
+  color: black;
+}
+
+.vertical-timeline-element-content {
+  background: #1e1e1e;
+  -webkit-box-shadow: 0 3px 0 black;
+  box-shadow: 0 3px 0 black;
+}
+
+.vertical-timeline-element-content-arrow {
+  border-right: 7px solid #1e1e1e;
+}
+
+.date-time {
+  margin-left: 0.7rem;
+  color: white;
+  text-align: center;
+}
+.day-color {
+  margin: 0 1rem;
+  right: 1rem;
+  color: #faa41a;
+}
+
+@media only screen and (max-width: 1169px) {
+  .date-time {
+    margin-left: 2rem;
+
+    text-align: left;
+  }
+  .day-color {
+    margin: 0 0.5rem;
+  }
+}
+
+.line-time {
+  width: 18rem;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 640px) {
+  .line-time {
+    width: 15rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .line-time {
+    width: 15rem;
+  }
+}
