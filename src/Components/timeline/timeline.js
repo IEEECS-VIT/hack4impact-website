@@ -33,7 +33,7 @@ const timeline = () => {
           iconStyle={{ background: '#fff', color: '#fff' }}
           //   icon={<WorkIcon />}
         >
-          <h3 className='vertical-timeline-element-title'>Work On Project</h3>
+          <h3 className='vertical-timeline-element-title'>Working Hours</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className='vertical-timeline-element--work'
@@ -92,9 +92,9 @@ const timeline = () => {
           //   icon={<SchoolIcon />}
         >
           <h3 className='vertical-timeline-element-title'>
-            Submission For{' '}
+            Submission Of Project{' '}
             <main class='.vertical-timeline-element-title'>
-              Midhack Evaluation
+              For Evaluation
             </main>
           </h3>
         </VerticalTimelineElement>
@@ -112,7 +112,7 @@ const timeline = () => {
           iconStyle={{ background: '#fff', color: '#fff' }}
           //   icon={<SchoolIcon />}
         >
-          <h3 className='vertical-timeline-element-title'>Evaluation</h3>
+          <h3 className='vertical-timeline-element-title'>Final Evaluation</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className='vertical-timeline-element--education'

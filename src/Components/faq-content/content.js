@@ -23,7 +23,7 @@ export default function Content() {
     {
       question: 'How many members can constitute a team?',
       answer:
-        'There should be a minimum of 3 members and can be up to 4 members in a team.',
+        'There should be a minimum of 2 members and can be up to 4 members in a team.',
     },
     {
       question: 'How will this hack help me?',
